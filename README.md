@@ -1,4 +1,4 @@
-#ETL-with-Multithreading
+# ETL-with-Multithreading
 
 Welcome to the world of data manipulation and optimization! In this project, we explored a fascinating technique called ETL. ETL stands for Extract, Transform, and Load – a way to handle data. 
 
@@ -13,10 +13,10 @@ To make things even more interesting, we figured out the best number of workers 
 
 A **thread** is the smallest sequence of instructions that a scheduler can manage independently. It is a component of a process. Multiple threads can exist within the same process, executing concurrently and sharing resources such as memory.
 
-**WHY MULTITHREADING?**
-
--Parallelism and Improved Performance 
--Responsiveness
+### WHY MULTITHREADING?
+-Parallelism and Improved Performance
+##
+Responsiveness
 -Resource Sharing
 -Efficient Resource Utilization
 -Real-time Systems
