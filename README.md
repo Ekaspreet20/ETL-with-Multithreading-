@@ -15,9 +15,11 @@ A **thread** is the smallest sequence of instructions that a scheduler can manag
 
 ### WHY MULTITHREADING?
 -Parallelism and Improved Performance
-##
-Responsiveness
+#####
+-Responsiveness
+#####
 -Resource Sharing
+#####
 -Efficient Resource Utilization
 -Real-time Systems
 -Faster execution
