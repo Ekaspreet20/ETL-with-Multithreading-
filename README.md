@@ -29,6 +29,11 @@ A **thread** is the smallest sequence of instructions that a scheduler can manag
 -Easy Communication
 ######
 
+## RESULT:
+On comparing the time taken by three methods for different sets of data(1 lakh, 5lakh, 7lakh, 10lakh, 50lakh, 1Cr, 2Cr, 3Cr, 4Cr, and 5Cr), it is found that Multithreading takes the least time. 
+
+<img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/7c766615-f166-4285-94ac-328efed7b119" width="600" />
+
 ### Example of data:-
 #### BEFORE:
 <img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/e9b92274-740d-432a-be83-dc5508084dd0" width="600" />
