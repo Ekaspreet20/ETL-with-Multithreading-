@@ -28,3 +28,11 @@ A **thread** is the smallest sequence of instructions that a scheduler can manag
 ######
 -Easy Communication
 ######
+
+**EG of data** 
+#### BEFORE:
+![before](https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/e9b92274-740d-432a-be83-dc5508084dd0)
+
+#### AFTER:
+![after](https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/86dc2628-cec5-4924-8ae8-9032a68a64ff)
+
