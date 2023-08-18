@@ -52,3 +52,5 @@ Further, For a case of 1 Crore data rows, the Optimal number of threads were fou
 #### AFTER:
 <img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/86dc2628-cec5-4924-8ae8-9032a68a64ff" width="600" /> 
 
+## Conclusion:
+Multithreading in an ETL project can improve performance and efficiency by allowing multiple tasks to be executed simultaneously. This can lead to faster data processing and reduced processing time.
