@@ -1,0 +1,48 @@
+drop table idea;
+drop table voda;
+drop sequence Sno_increment;
+
+
+create table Idea(
+Sno number(6) primary key,
+sName varchar(50),
+Address varchar(200),
+Age number(3),
+Salary number(8),
+Gender varchar(12),
+Contact number(13)
+);
+CREATE SEQUENCE Sno_increment;
+
+BEGIN
+    FOR idx IN 1..50000 LOOP
+        INSERT INTO Idea(sName,Address,Age,Salary,Gender,Contact) VALUES ('Raj','H.no 183,Rani ka bagh,Amritsar','28','50000','Male','9812313210');
+    End loop;
+end;
+
+SELECT * FROM idea
+
+create table Voda(   
+sName varchar(50),   
+Address varchar(200),   
+Age number(3),   
+Salary number(8),   
+Gender varchar(12),   
+Contact Varchar(15)   
+)
+Declare 
+    loopcounter number := 1;
+Begin
+while(loopcounter <= 50000)
+loop
+    INSERT INTO VODA(sName,Address,Age,Salary,Gender,Contact) SELECT UPPER(sName),UPPER(Address),Age+1,Salary+0.02*Salary,
+    case Gender
+        when 'Male' then 'M'
+        when 'Female' then 'F'
+    end
+    ,CONCAT('+91 ',Idea.Contact) FROM Idea where loopcounter=Idea.Sno ;
+    loopcounter := loopcounter+1;
+end loop;
+END;
+
+SELECT * FROM voda
