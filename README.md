@@ -41,6 +41,10 @@ Case 3 - Using Multi-threading
 
 <img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/7c766615-f166-4285-94ac-328efed7b119" width="600" />
 
+Further, For a case of 1 Crore data rows, the Optimal number of threads were found to be 3. As the degree of multithreading increases, Time taken decreases but after a certain point the threads start interfering with each other and time taken increases.
+
+<img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/f0745a5d-4435-4225-a8a9-90542d6e6d98" width="600" />
+
 ### Snippet of data:-
 #### BEFORE:
 <img src="https://github.com/Ekaspreet20/ETL-with-Multithreading-/assets/65918628/e9b92274-740d-432a-be83-dc5508084dd0" width="600" />
